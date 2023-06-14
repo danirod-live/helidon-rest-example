@@ -1,0 +1,11 @@
+server:
+  port: 8080
+javax:
+  sql:
+    DataSource:
+      jpaDataSource:
+        dataSourceClassName: com.mysql.cj.jdbc.MysqlDataSource
+        dataSource:
+          url: jdbc:mysql://localhost:3306/escuela
+          user: root
+          password: escuela
